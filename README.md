@@ -37,3 +37,28 @@ rake image:favico[download.png,dist/favicos,'10 20 32 54']
 ├── index.rake
 └── package.json
 ~~~
+
+
+## other solution based on ruby:
+```rb
+require "favicon_maker"
+
+
+FaviconMaker.generate do
+  setup do
+    template_dir "."
+    output_dir "."
+  end
+
+  from "miaotu_rect.png" do
+    icon "favicon.ico", size: "64x64,32x32,24x24,16x16"
+  end
+
+  each_icon do |filepath|
+    puts filepath # verbose example
+  end
+end
+
+# https://www.imagemagick.org/script/convert.php
+# convert -resize x64 miaotu_rect.png dist/favicon.ico
+```
