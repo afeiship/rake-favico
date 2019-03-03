@@ -3,9 +3,11 @@
 
 ## install:
 ```bash
-# install imagemagick
+## install imagemagick
 brew install imagemagick
-npm i -S afeiship/rake-image-favico --registry=https://registry.npm.taobao.org
+
+## install as dev-dep for cmd task:
+npm i -D afeiship/rake-image-favico --registry=https://registry.npm.taobao.org
 ```
 
 ## gem install:
