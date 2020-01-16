@@ -7,7 +7,7 @@
 brew install imagemagick
 
 ## install as dev-dep for cmd task:
-npm i -D afeiship/rake-image-favico --registry=https://registry.npm.taobao.org
+npm i -D @feizheng/rake-image-favico
 ```
 
 ## gem install:

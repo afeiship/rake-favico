@@ -1,5 +1,5 @@
 {
-  "name": "rake-image-favico",
+  "name": "@feizheng/rake-image-favico",
   "version": "1.0.0",
   "description": "A favico generate task.",
   "main": "index.rake",
@@ -7,11 +7,19 @@
     "type": "git",
     "url": "git+https://github.com/afeiship/rake-image-favico.git"
   },
-  "keywords": ["rake", "task"],
+  "keywords": [
+    "rake",
+    "image",
+    "favico",
+    "task"
+  ],
   "author": "afei",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/afeiship/rake-image-favico/issues"
   },
-  "homepage": "https://github.com/afeiship/rake-image-favico#readme"
+  "homepage": "https://github.com/afeiship/rake-image-favico#readme",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
 }
