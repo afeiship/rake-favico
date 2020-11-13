@@ -1,5 +1,5 @@
 {
-  "name": "@feizheng/rake-image-favico",
+  "name": "@jswork/rake-image-favico",
   "version": "1.0.0",
   "description": "A favico generate task.",
   "main": "index.rake",

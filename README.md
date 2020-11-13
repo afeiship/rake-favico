@@ -1,21 +1,21 @@
 # rake-image-favico
 > A favico generate task.
 
-## install:
+## installation
 ```bash
 ## install imagemagick
 brew install imagemagick
 
 ## install as dev-dep for cmd task:
-npm i -D @feizheng/rake-image-favico
+npm i -D @jswork/rake-image-favico
 ```
 
-## gem install:
+## gem install
 ```bash
 gem install fileutils
 ```
 
-## usage:
+## usage
 ~~~
 $ rake -T
 rake image:favico[source,dist,sizes]  # Generate favico
